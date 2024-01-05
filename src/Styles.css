@@ -38,6 +38,7 @@ h1 {
 #hamburger-menu {
     margin-left: 112px;
     margin-right: 29px;
+    margin-top: 14px;
 }
 
 #rectangle {
@@ -93,6 +94,24 @@ h3 {
     font-style: normal;
     font-weight: 700;
 
+    margin-top: 78px;
+    margin-left: 32px;
+    margin-bottom: 78px;
+}
+
+#newscard {
+    max-width: 311px;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    width: 100%;
+
+    margin-bottom: 32px;
+}
+
+#detail {
+    max-width: 247px;
+    width: 100%;
 }
 
 #date {
@@ -101,6 +120,15 @@ h3 {
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
+
+    margin-left: 32px;
+    margin-top: 35px;
+    margin-bottom: 28px;
+}
+
+#news-title {
+    margin-left: 32px;
+    width: 100%;
 }
 
 #cta {
@@ -110,14 +138,205 @@ h3 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    padding: 0;
+    margin-left: 183px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+#desktop-navbar {
+    display: none;
+}
+
+#menu-button {
+    display: none;
 }
 
 /* Small devices (tablets) */
 @media screen and (min-width: 744px) {
-    /* CSS rules */
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #top-section {
+        background-image: url(Background-tablet.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1024px;
+    }
+
+    h1 {
+        margin-right: 380px;
+    }
+
+    #title-section {
+        max-width: 600px;
+        margin-left: 72px;
+        margin-right: 72px;
+    }
+
+    h2 {
+        color: #FFF;
+        font-family: Libre Caslon Display, sans-serif;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+
+        margin-bottom: 44px;
+    }
+
+    #subtitle-text {
+        margin-top: 0px;
+    }
+
+    #bottom-section {
+        max-width: 600px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+
+    }
+
+    .portrait {
+        max-width: 187px;
+    }
+
+    #newscard {
+        max-width: 187px;
+        margin-right: 20px;
+
+    }
+
+    #news-title {
+        font-family: Inter, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0em;
+        max-width: 123px;
+        padding: 0;
+    }
+
+    #cta {
+        font-family: Inter, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        /* text-align: left; */
+
+        max-width: 98px;
+        margin-top: 28px;
+        margin-left: 59px;
+        margin-bottom: 32px;
+    }
+
+    #desktop-navbar {
+        display: none;
+    }
+
 }
+
 
 /* Large devices (desktops) */
 @media screen and (min-width: 1440px) {
-    /* CSS rules */
+    #desktop-navbar li {
+        list-style: none;
+        display: inline;
+        margin-right: 35px;
+
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #FFFFFF;
+
+    }
+
+    #desktop-navbar {
+        margin-top: 32px;
+        margin-right: 0;
+        display: block;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    #menu-button {
+        display: block;
+        border-radius: 10px;
+        border: 2px solid #FFF;
+        width: 153px;
+        height: 42px;
+        flex-shrink: 0;
+        margin-top: 26px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .menu-text-button {
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 8px 27px;
+    }
+
+    #top-section {
+        background-image: url(Background-desktop.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1024px;
+    }
+
+    #title-section {
+        max-width: 748px;
+    }
+
+    h2 {
+        font-size: 80px;
+    }
+
+    #subtitle-text {
+        font-size: 18px;
+        max-width: 528px;
+    }
+
+    #bottom-section {
+        max-width: 720px;
+        margin-left: 72px;
+        margin-right: 72px;
+        width: 100%;
+    }
+
+    .portrait {
+        max-width: 419px;
+    }
+
+    #newscard {
+        max-width: 419px;
+        margin-right: 20px;
+        align-content: stretch;
+    }
+
+    #news-title {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+
+
+        max-width: 355px;
+    }
 }
