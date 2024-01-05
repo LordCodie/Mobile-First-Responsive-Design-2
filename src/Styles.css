@@ -1,0 +1,123 @@
+/* Base Styles (mobile) */
+/* CSS rules */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#top-section {
+    background-image: url(Background\ image.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1024px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37px;
+    color: #FFFFFF;
+
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+#hamburger-menu {
+    margin-left: 112px;
+    margin-right: 29px;
+}
+
+#rectangle {
+    margin-top: 200px;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Libre Caslon Display, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+
+    margin-top: 16px;
+}
+
+#subtitle-text {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 168.523%;
+    margin-bottom: 32px;
+}
+
+.button-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+#button {
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    width: 80px;
+    padding: 6px 20px;
+}
+
+#title-section {
+    max-width: 314px;
+    margin-left: 32px;
+    margin-right: 29px;
+}
+
+h3 {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+#date {
+    color: #B7B7B7;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#cta {
+    color: #D9852C;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Small devices (tablets) */
+@media screen and (min-width: 744px) {
+    /* CSS rules */
+}
+
+/* Large devices (desktops) */
+@media screen and (min-width: 1440px) {
+    /* CSS rules */
+}
